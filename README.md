@@ -1,75 +1,73 @@
-# Learniverse
+# 📚 Learniverse
 
-Learniverse is a comprehensive learning management system designed to simplify and enhance the education experience for both students and educators. It provides tools for course management, user interaction, attendance tracking, and administrative oversight.
-
----
-
-## 🔧 Tech Stack
-
-- **Backend**:
-  - Java (Standalone Desktop App)
-  - Symfony (Web-based Admin Panel)
-
-- **Frontend**:
-  - JavaFX (for the desktop app)
-  - Twig + HTML/CSS (for the Symfony-based web interface)
+**Learniverse** is an advanced e-learning platform designed to enhance communication and security in online education. Built with **Java** for the backend logic and **Symfony** for the web interface, it focuses on robust authentication, user safety, and seamless interaction between students and teachers.
 
 ---
 
-## 🖥️ Project Components
+## 🚀 Features
 
-### 🔹 Java Application (Pidev-java)
+### 🔐 Authentication & Security
+- Secure **login/signup system** with hashed passwords
+- **Two-Factor Authentication (2FA)** for added security
+- **OAuth 2.0** integration (Google and GitHub)
+- Tracks **login sessions** with IP, location, and device info
+- Users can **terminate active sessions remotely**
+- **Password recovery** via email verification
+- **Account lockout** after multiple failed login attempts
 
-The desktop application is developed using Java and JavaFX. It allows students and instructors to:
-- Register and log in
-- View and enroll in available courses
-- Submit assignments
-- Track grades and attendance
+### 🛠️ Administration Tools
+- Admins can **ban users** based on complaint reports
+- Session monitoring and activity tracking
+- User complaint resolution system
 
-> 📁 [Pidev-java Repository](https://github.com/FaroukBentaleb/Pidev-java)
-
----
-
-### 🔹 Symfony Web Application (Pidev-web)
-
-The Symfony-based web application serves as an admin panel. It includes:
-- User and role management
-- Course creation and moderation
-- Statistical dashboards
-- Email notifications
-
-> 📁 [Pidev-web Repository](https://github.com/FaroukBentaleb/Pidev-web)
+### 📚 Learning Tools
+- **Interactive forums** for student-teacher discussions
+- Complaint system for reporting technical/content issues
 
 ---
 
-## 📸 Screenshots
+## 🛠️ Technologies Used
 
-### Desktop App
-![Java App Screenshot](/mnt/data/6f993f82-6226-42a0-a873-fc589b6ad98b.png)
-
-### Web Admin Interface
-![Symfony Web Screenshot](/mnt/data/50c80e4d-0cfa-4185-9df7-20d9fb154a89.png)
-
----
-
-## 🚀 Coming Features
-
-- Video call integration
-- Chat support between users
-- AI-based course recommendation
+| Layer              | Tech Stack        |
+|-------------------|-------------------|
+| Backend Logic      | Java              |
+| Web Framework      | Symfony (PHP)     |
+| Authentication     | Firebase / OAuth  |
+| Database           | MySQL             |
+| Session Tracking   | Java + IP tools   |
 
 ---
 
-## 📚 License
+## 📺 Demo
 
-This project is licensed under the MIT License.
+▶️ Watch the Learniverse walkthrough here:  
+👉 [View Demo on Google Drive](https://drive.google.com/file/d/1cxGRwXo3UwaCPapqGvL2BrXuwpoJyxjv/view?usp=drive_link)
 
----
-
-## 👤 Author
-
-**Farouk Bentaleb**
+> Make sure the link has public viewing access enabled.
 
 ---
 
-Feel free to fork, contribute, or give feedback!
+## 📂 Project Structure
+
+The project is divided into two main repositories:
+- 🔸 [`Pidev-java`](https://github.com/FaroukBentaleb/Pidev-java): Backend and session logic
+- 🔸 [`Pidev-web`](https://github.com/FaroukBentaleb/Pidev-web): Frontend (Symfony-based)
+
+---
+
+## 📌 Status
+
+> This project is currently under development. More features and improvements coming soon!
+
+---
+
+## 🤝 Contributing
+
+Interested in contributing? Feel free to fork the repos, open issues, or submit pull requests.
+
+---
+
+## 📧 Contact
+
+Created by **Farouk Bentaleb** – feel free to reach out on [GitHub](https://github.com/FaroukBentaleb) for any questions or collaboration ideas.
+
