@@ -1,73 +1,84 @@
 # 📚 Learniverse
 
-**Learniverse** is an advanced e-learning platform designed to enhance communication and security in online education. Built with **Java** for the backend logic and **Symfony** for the web interface, it focuses on robust authentication, user safety, and seamless interaction between students and teachers.
+**Learniverse** is a modern and secure e-learning platform that enhances online education with rich student-teacher interaction, strong security systems, and cross-platform accessibility. The platform includes a full-featured **Java desktop app**, a responsive **web-based admin panel**, and a **mobile app** developed using FlutterFlow.
 
 ---
 
 ## 🚀 Features
 
 ### 🔐 Authentication & Security
-- Secure **login/signup system** with hashed passwords
-- **Two-Factor Authentication (2FA)** for added security
-- **OAuth 2.0** integration (Google and GitHub)
-- Tracks **login sessions** with IP, location, and device info
-- Users can **terminate active sessions remotely**
-- **Password recovery** via email verification
-- **Account lockout** after multiple failed login attempts
+- Secure login/signup with password hashing
+- **Two-Factor Authentication (2FA)**
+- **OAuth integration** (Google & GitHub)
+- Session tracking (device, IP, location)
+- Remote session termination
+- Password recovery via email verification
+- Account lockout after multiple failed login attempts
 
-### 🛠️ Administration Tools
-- Admins can **ban users** based on complaint reports
-- Session monitoring and activity tracking
-- User complaint resolution system
+### 🛠️ Admin Tools
+- Admin dashboard to ban users based on complaints
+- Complaint management system
 
-### 📚 Learning Tools
-- **Interactive forums** for student-teacher discussions
-- Complaint system for reporting technical/content issues
+### 📚 Content & Engagement
+- 📌 **Courses**: Users can browse and enroll in structured online courses  
+- 🏆 **Competitions**: Periodic challenges to encourage learning through gamification  
+- 💬 **Forums**: Discussion spaces for collaborative learning and help  
+- 🎯 **Offers**: Display of educational offers and relevant opportunities  
+- 📝 **Complaints**: Users can submit and track complaints, ensuring platform accountability 
+---
+
+## 🧠 Tech Stack
+
+| Component         | Technology                                  |
+|------------------|----------------------------------------------|
+| 🖥️ Desktop App    | Java, JavaFX, XML, Java Classes              |
+| 🌐 Web Platform   | Symfony (PHP), HTML, CSS, JavaScript         |
+| 📱 Mobile App     | FlutterFlow (Flutter-based no-code builder) |
+| 🗄️ Database       | MySQL                                        |
 
 ---
 
-## 🛠️ Technologies Used
+## 🧩 Project Structure
 
-| Layer              | Tech Stack        |
-|-------------------|-------------------|
-| Backend Logic      | Java              |
-| Web Framework      | Symfony (PHP)     |
-| Authentication     | Firebase / OAuth  |
-| Database           | MySQL             |
-| Session Tracking   | Java + IP tools   |
+### 🔹 Desktop App
+- Built with **JavaFX**
+- Provides learning features, authentication, and forums for users
+
+### 🔹 Web Platform
+- Symfony-based backend with modern frontend stack
+- Used mainly by administrators to manage users, complaints, and sessions
+
+### 🔹 Mobile App
+- Built with **FlutterFlow**
+- Offers a simplified mobile interface for students and teachers on the go
 
 ---
 
 ## 📺 Demo
 
-▶️ Watch the Learniverse walkthrough here:  
-👉 [View Demo on Google Drive](https://drive.google.com/file/d/1cxGRwXo3UwaCPapqGvL2BrXuwpoJyxjv/view?usp=drive_link)
-
-> Make sure the link has public viewing access enabled.
+▶️ Watch the Learniverse demo video:  
+👉 [View Demo](https://drive.google.com/file/d/1cxGRwXo3UwaCPapqGvL2BrXuwpoJyxjv/view?usp=drive_link)
 
 ---
 
-## 📂 Project Structure
+## 📌 Project Status
 
-The project is divided into two main repositories:
-- 🔸 [`Pidev-java`](https://github.com/FaroukBentaleb/Pidev-java): Backend and session logic
-- 🔸 [`Pidev-web`](https://github.com/FaroukBentaleb/Pidev-web): Frontend (Symfony-based)
-
----
-
-## 📌 Status
-
-> This project is currently under development. More features and improvements coming soon!
+✅ Core functionality completed  
+🚧 Additional features and UI refinements in progress  
+🧭 Planned features: notifications, real-time chat, course recommendations
 
 ---
 
 ## 🤝 Contributing
 
-Interested in contributing? Feel free to fork the repos, open issues, or submit pull requests.
+Interested in contributing? Fork the repo, open an issue, or submit a pull request. All contributions are welcome!
 
 ---
 
-## 📧 Contact
+## 👤 Author
 
-Created by **Farouk Bentaleb** – feel free to reach out on [GitHub](https://github.com/FaroukBentaleb) for any questions or collaboration ideas.
+**Farouk Bentaleb**  
+[GitHub Profile](https://github.com/FaroukBentaleb)
+
+---
 
