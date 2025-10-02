@@ -75,10 +75,4 @@ Interested in contributing? Fork the repo, open an issue, or submit a pull reque
 
 ---
 
-## 👤 Author
-
-**Farouk Bentaleb**  
-[GitHub Profile](https://github.com/FaroukBentaleb)
-
----
 
